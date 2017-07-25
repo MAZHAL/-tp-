@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<?php foreach($arr as $v){ ?>
+<a href="<?php echo $v['href'];  ?>"><?php echo $curr==$v['page'] ?$v['page']:'['.$v['page'].']' ?></a>
+
+<?php };?>
+</body>
+</html>
